@@ -17,3 +17,16 @@ if (age >= 18) {
 for(let i = 1; i <= 5; i++) {
     console.log("Iteration number: " + i)
 }
+function squareNumber(num) {
+    return num * num;
+}
+x=squareNumber(5)
+console.log("Square of 5 is: ",x)
+function checkOddEven(num) {
+    if(num%2 === 0) {
+        return "Even";
+    } else {
+        return "Odd";
+    }
+}
+console.log("Check if 7 is odd or even: ",checkOddEven(7));
